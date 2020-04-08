@@ -1,0 +1,484 @@
+<html>
+<head>
+    <style>
+    *
+{
+
+    margin: 0;
+    padding; 0;
+}
+body
+{
+   font-family: sans-serif;
+}
+#nav-bar
+{
+     position: sticky;
+     top: 0;
+    z-index: 10;
+    
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #3CB371,#FF69B4);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff ! important;
+    font-weight: 600;
+    float: right;
+    text-align: left
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*--------------------banner section-----------------------*/
+#banner
+{
+    background-image: linear-gradient(to right, #3CB371,#FF69B4);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a
+{
+    color: :#fff;
+    text-decoration: none;
+}
+.bottom-img
+{
+    width: 100%;
+}
+/*--------------------services section -------------------*/
+
+#services
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before
+{
+    content: '';
+    background: #3CB371;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #3CB371;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #3CB371,#FF69B4);
+}
+/*------------about-us SECTION  ------------*/
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li
+{
+    margin: 10px 0;
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+/*------------TESTIMONIAL SECTION  ------------*/
+#testimonials
+{
+    margin: 50PX 0;
+}
+.testimonials
+{
+    border-left: 4px solid #3CB371;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    
+}
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+/*------------social media SECTION  ------------*/
+#social-media
+{
+
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+    padding: 10px;
+    
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*------------Footer SECTION  ------------*/
+#footer
+{
+    background-image: linear-gradient(to right, #3CB371,#FF69B4);
+    color: #fff;
+    
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{ 
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #3CB371,#FF69B4);
+    
+}
+
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #FFFFFF,#FFFFFF);
+    color: #3CB371;
+}
+hr
+{
+    background-color: #fff;
+    
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+</style>
+<title>INDIAN ELECTRICITY PAY COUNTER</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="nav-bar">
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="https://www.jaargo.com/wp-content/uploads/2018/01/ES-logo-RGB-landscape.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">ABOUT US</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#testimonials">TIPS & SLOGANS</a>
+            
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#footer">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+</section>
+<!----------------BAnner section------------->
+<section id="banner">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p class="promo-title"> DO RIGHT SAVE LIGHT</p>
+<p>Don't bite – turn off the light. Every machine runs on electricity, save it.
+   Save electricity for all. Save electricity today – Use electricity tomorrow.</p>
+
+</div>
+    <div class="col-md-4 footer-box">
+
+    <p><b>REGISTER YOURSELF</b></p>
+    <input type="name" class="form-control" placeholder="Name">
+    <input type="email" class="form-control" placeholder="Email id">
+    <input type="username" class="form-control" placeholder="Username">
+    <input type="Password" class="form-control" placeholder="Password">
+    <button type="button" class="btn btn-primary">Submit</button>
+    
+    
+</div>
+<div class="col-md-6 text-centre">
+
+</div>
+</div>
+</div>
+    
+    
+</section>
+
+    
+    <!----------------------Services section---------------->
+    
+    <section id="services">
+    <div class="container text-center">
+        <h1 class="title">WHAT WE DO ?</h1>
+    <div class="row text-center">
+ <div class="col-md-4 services"><!---copy1-->
+    
+        <img src="https://seeklogo.com/images/1/24-7-emergency-services-logo-28F8465D48-seeklogo.com.png" class="service-img">
+        <h4>EMERGENCY SERVICES</h4>
+        <p>We help our client in emergency coditions &  in return we only need good response from them.
+            Our main motive is to provide best services to our client.</p>
+        
+        
+</div>
+        
+<div class="col-md-4 services"><!---copy2-->
+    
+        <img src="https://cdn3.iconfinder.com/data/icons/materia-communication/24/006_028_connection_electrical_plug_connect_new-512.png" class="service-img">
+        <h4>NEW METER CONNECTION</h4>
+        <p>We also provide new meter connection we can provide it to you , just call us on our our telephone number.</p>
+        
+</div>
+
+
+        
+<div class="col-md-4 services"><!---copy3-->
+    
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCznKMf3oY8Ex_djz9ZedpjrR5fvweB354rkg3c4XolfZkNzF3&usqp=CAU" class="service-img">
+        <h4>PAYMENT FACILITIES</h4>
+        <p>In this website we provide payment links from where you can pay your dues.</p>
+        
+</div>
+</div>
+<button type="button" class="btn btn-primary">All Services</button>
+</div>  
+</section>
+    <!-------------About us----------->
+
+<section id="about-us">
+<div class="container">
+<h1 class="title text-center">WHY CHOOSE US ?</h1>
+<div class="row">
+<div class="col-md-6 about-us">
+<p class="about-title">Why we're different</p> 
+        <ul>
+        <li>Believe in doing business with honesty.</li>
+        <li>Believe in transparence between cleint and all.</li>
+        <li>Provide worlds best emergency services.</li>
+        <li>Provide easy payment gateway.</li>
+        <li>Provide hassle free payment option.</li>
+        <li>Contacts with worlds top most payment site.</li>
+            
+        
+        </ul>
+</div>  
+<div class="col-md-6">
+<img src="https://cdn2.vectorstock.com/i/1000x1000/55/61/why-choose-us-speech-bubble-vector-24175561.jpg" class="img-fluid">
+    
+</div>
+</div>
+</div>
+</section>
+ <!-------------Testimonials----------->   
+
+<section id="testimonials">
+<div class="container">
+<h1 class="title text-center">TIPS TO SAVE ELECTRICITY </h1>
+    <div class="row offset-1">
+<div class="col-md-5 testimonials">
+    <p>Save Power, Save Nation. Like Money saved is Money earned, Power Saved is Power Generated. Turn off the lights, wasting electricity bites! Turn off the lights, don't let the energy bill give you a fright.</p>
+    <img src="https://thumbs.dreamstime.com/z/save-electricity-abstract-symbol-isolated-white-background-80918071.jpg">
+    
+    </div>
+<div class="col-md-5 testimonials">
+    <p>Save Electricity,Save Water.Let's make earth a better place to live. Plant a tree,Keep the nature alive,Let's make earth a better place to live</p>
+    <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX29006815.jpg">
+    <p class="user-details"><b>by Pranshi Khandelwal</b></p>
+    
+</div>
+
+</div>
+</div>
+</section>
+    
+    <!-------------Social media section-----------> 
+
+<section id="social-media">
+<div class="container text-center">
+  <p>BILL PAYMENT LINK'S</p>  
+    <div class="social-icons">
+        <a href="https://www.amazon.in/hfc/bill/electricity?ref_=apay_mobhome_Electricity"><img src="https://i.insider.com/539f3ffbecad044276726c01?width=1100&format=jpeg&auto=webp"></a>
+        <a href="https://paytm.com/electricity-bill-payment"><img src="https://img.icons8.com/color/480/paytm.png"></a>
+        <a href="https://www.mobikwik.com/electricity-bill-payment"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/MobiKwik-Logo.png/640px-MobiKwik-Logo.png"></a>
+        <a href="https://tnc.phonepe.com/tncstore/18/05/17/OF1805171459318935542303/en.html"><img src="https://download.logo.wine/logo/PhonePe/PhonePe-Logo.wine.png"></a>
+        
+    </div>
+</div>  
+</section>
+
+ <!-------------Footer  section-----------> 
+    
+<section id="footer">
+
+<div class="container">
+<div class="row">
+<div class="col-md-4 footer-box">
+<img src="https://www.jaargo.com/wp-content/uploads/2018/01/ES-logo-RGB-landscape.png">
+    <p>Don't bite – turn off the light. Every machine runs on electricity, save it.
+   Save electricity for all. Save electricity today – Use electricity tomorrow.</p>
+    
+</div>
+<div class="col-md-4 footer-box">
+
+    <p><b>CONTACT US</b></p>
+    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Lovely Professional University<br>Jalandhar-Delhi, G.T. Road, Phagwara, Punjab (INDIA) -144411.</p>
+    <p><i class="fa fa-phone" aria-hidden="true"></i> +91 000123232</p>
+    <p><i class="fa fa-envelope" aria-hidden="true"></i> xyz@gmail.com</p>
+    
+</div>
+<div class="col-md-4 footer-box">
+
+    <p><b>FAQ'S</b></p>
+    <input type="Comments" class="form-control" placeholder="Any Question's">
+    <button type="button" class="btn btn-primary">Submit</button>
+    
+    
+</div>
+</div>  
+<hr>
+    <p class="copyright">Website Crafted by Verto's</p>
+</div>    
+</section>
+    <!-------------Smooth scroll----------->
+    
+    <script src="smooth-scroll.js"></script>
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
